@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 389" role="img" aria-labelledby="title desc">
+  <title id="title">Yuanling Food logo</title>
+  <desc id="desc">White YUANLING mark on a warm gold background</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c89a72" />
+      <stop offset="100%" stop-color="#d8b089" />
+    </linearGradient>
+    <radialGradient id="bubble" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fffdfb" />
+      <stop offset="55%" stop-color="#fbefe6" />
+      <stop offset="100%" stop-color="#f1dac6" />
+    </radialGradient>
+    <radialGradient id="bubbleGlow" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="846" height="389" rx="16" fill="url(#bg)" />
+
+  <g fill="url(#bubble)" filter="url(#softGlow)">
+    <circle cx="152" cy="97" r="17" />
+    <circle cx="126" cy="158" r="43" />
+    <circle cx="176" cy="218" r="13" />
+    <circle cx="596" cy="97" r="12" />
+    <circle cx="626" cy="158" r="39" />
+    <circle cx="594" cy="218" r="12" />
+  </g>
+
+  <g fill="url(#bubbleGlow)">
+    <circle cx="145" cy="88" r="9" />
+    <circle cx="114" cy="140" r="16" />
+    <circle cx="170" cy="208" r="8" />
+    <circle cx="588" cy="88" r="7" />
+    <circle cx="612" cy="143" r="14" />
+    <circle cx="588" cy="205" r="7" />
+  </g>
+</svg>
